@@ -1,0 +1,720 @@
+@font-face {
+    font-family: 'Kufi';
+    src: url('../fonts/DroidKufi-Regular.eot');
+    src: url('../fonts/DroidKufi-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/DroidKufi-Regular.woff') format('woff'),
+		 url('../fonts/DroidKufi-Regular.ttf') format('truetype'),
+		 url('../fonts/DroidKufi-Regular.svg#AnimalsNormal') format('svg');
+}
+
+/*************************************************************************************/
+
+body {
+    font-family: 'kufi',Tahoma;
+}
+
+.center {
+  text-align: center;
+}
+
+header {
+  border-top: 1px solid #183c82;
+}
+
+header .navbar {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+
+}
+
+header .navbar li a {
+  padding: 15px 15px;
+  margin: 0;
+  color: #333;
+  /*font-weight: 600;*/
+  border-radius: 3px;
+  transition: all 0.2s ease;
+
+}
+
+header .navbar li a:hover,
+header .navbar li a.active {
+  background-color: #183b81;
+  color: #fff;
+}
+
+header .top-nav li a {
+  padding: 15px 15px;
+  margin: 0;
+  color: #fff;
+  /*font-weight: 600;*/
+  border-radius: 3px;
+  transition: all 0.2s ease;
+
+}
+
+header .top-nav li a:hover,
+header .top-nav li a.active {
+  background-color: transparent;
+  color: #fff;
+}
+
+header .mdl-nav {
+  text-align: center;
+  padding: 15px 0;
+}
+
+
+header .navbar-brand {
+  margin: 0;
+  padding: 0;
+  margin-top: -30px;
+}
+
+header input {
+  background-color: transparent;
+  border: 1px solid #777;
+  height: 30px;
+  border-radius: 3px;
+  margin-top: 10px;
+  color: #fff;
+  outline: none;
+}
+
+/******* start slide section ****************/
+
+.slide-section .carousel-inner > .item > img,
+.slide-section .carousel-inner > .item > a > img {
+  width: 100%;
+}
+
+.slide-section,
+.slide-section .carousel-inner,
+.slide-section .carousel-inner  .item {
+  height: 500px;
+}
+
+.slide-section .carousel-caption h2 {
+  color: #183c82;
+  display: inline-block;
+  padding: 15px 20px;
+}
+
+.slide-section .carousel-caption p {
+  color: #fff;
+  text-shadow: none;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+.slide-section .carousel-caption .btn {
+  background: #183c82;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 17px;
+}
+
+/******* end slide section ****************/
+/******* start wlcome section ****************/
+.welcome {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.welcome h3 {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #444;
+}
+
+.welcome p {
+  color: #555;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  margin: 30px 58px;
+}
+
+.welcome .block {
+  background-color: #c68d4a;
+  padding: 20px;
+  color: #fff;
+  margin-top: 25px;
+  transition: all 0.2s ease;
+}
+
+.welcome .block:hover {
+  background-color: #cc9a5f;
+}
+
+.welcome .block .fa {
+  color: #fff;
+  font-size: 44px;
+  border: 1px solid #fff;
+  height: 70px;
+  width: 70px;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.welcome .block h3 {
+  color: #fff;
+}
+
+.welcome .block p {
+  text-align: right;
+  color: #fff;
+}
+
+
+/******* end welcome section ****************/
+/******* start feat section ****************/
+.feat {
+  padding: 55px 0;
+  background: url(../images/feat-bg.jpg) fixed;
+  background-size: cover;
+}
+
+.feat h3 {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.feat p {
+  letter-spacing: 0.5px;
+  font-size: 17px;
+  color: #f5f5f5;
+  margin: 20px;
+}
+
+/******* end feat section ****************/
+/******* start gallary section ****************/
+.galary {
+  padding: 40px 0;
+  /*background: #81AE2F;*/
+  /*direction: ltr;*/
+}
+
+.galary .img-container {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.galary .img-container img {
+  transition: all 0.2s ease;
+}
+
+.galary .img-container:hover img {
+  transform: scale(1.1);
+}
+
+.galary .center .btn {
+  background-color: transparent;
+  border: 1px solid #173c83;
+  color: #173c83;
+  padding: 15px 30px;
+  font-size: 17px;
+  margin-top: 25px;
+}
+
+/******* end gallary section ****************/
+/******* start footer section ****************/
+footer {
+  padding: 55px 0;
+  background: url(../images/footer-bg.jpg);
+}
+
+footer .cont {
+  max-width: 500px;
+  text-align: center;
+}
+
+footer .cont .social {
+  float: none;
+  text-align: center;
+  margin: 15px auto;
+  display: inline-block;
+}
+
+footer .cont .social li a {
+  color: #444;
+}
+
+/******* end footer section ****************/
+/********* image SECTION **************/
+
+.contact-img-sec {
+  background: url(../images/contact-sec-bg.jpg) fixed;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.contact-img-sec .fa {
+  color: #183c82;
+  font-size: 50px;
+}
+
+.contact-img-sec h3 {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/********* contact-sec-one **************/
+.contact-sec-1 {
+  padding: 50px 0;
+  direction: rtl;
+}
+
+.contact-sec-1 h4 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #555;
+  font-size: 20px;
+}
+
+.contact-sec-1 p {
+  color: #666;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.contact-sec-1 .block {
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+
+.contact-sec-1 .block h5 {
+  color: #666;
+  letter-spacing: 0.5px;
+  /*margin-top: 15px;*/
+}
+
+.contact-sec-1 .block span {
+  font-weight: bold;
+  color: #183c82;
+  letter-spacing: 0.5px;
+  /*margin-top: 15px;*/
+}
+
+.contact-sec-1 .block p {
+  font-size: 13px;
+}
+
+/********* contact-sec-three **************/
+.contact-sec-3 {
+  padding: 50px 0;
+  direction: rtl;
+  background: #f7f7f7;
+}
+
+.contact-sec-3 .block {
+  border: 1px solid #ccc;
+  padding: 15px;
+  min-height: 150px;
+  position: relative;
+}
+
+.contact-sec-3 .block .fa {
+  background: #183c82;
+  border: 1px solid #183c82;
+  color: white;
+  padding: 14px 14px;
+  height: 45px;
+  width: 45px;
+  font-size: 18px;
+  position: absolute;
+  top: -40px;
+  transition: all 0.2s ease;
+}
+
+.contact-sec-3 .block:hover .fa {
+  background: white;
+  color: #183c82;
+}
+
+.contact-sec-3 .block h4 {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #555;
+}
+
+.contact-sec-3 .block p,
+.contact-sec-3 .block h5 {
+  color: #777;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+}
+
+.contact-sec-3 .block h5 span {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #555;
+}
+
+
+
+/********* contact-sec-four **************/
+.contact-sec-4 {
+    padding: 50px 0;
+    direction: rtl;
+}
+
+.contact-sec-4 form {
+  padding: 25px;
+  padding-top: 0;
+  /*border: 1px solid #ccc;*/
+}
+
+.contact-sec-4 form label {
+  color: #666;
+}
+
+.contact-sec-4 form .form-control {
+  box-shadow: none;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  transition: all 0.2s ease;
+}
+
+.contact-sec-4 form .form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #999;
+}
+
+.contact-sec-4 form .btn {
+  background: #183c82;
+  border: 1px solid #183c82;
+  color: #fff;
+  width: 100%;
+  border-radius: 0;
+  transition: all 0.2s ease;
+}
+
+.contact-sec-4 form .btn:hover {
+  background: white;
+  color: #183c82;
+}
+
+.contact-sec-4 p {
+  color: #777;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+}
+
+.contact-sec-4 h4 {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #555;
+  margin: 28px 0 10px 0;
+}
+
+.contact-sec-4 h5 {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.contact-sec-4  p,
+.contact-sec-4  h5 {
+  color: #777;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
+}
+
+.contact-sec-4 h5 span {
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: #555;
+}
+
+.contact-sec-4 h5 .fa {
+  color: #183c82;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+
+/********* image SECTION **************/
+
+.about-img-sec {
+  background: url(../images/about-sec-bg.jpg) fixed;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.about-img-sec .fa {
+  color: #183c82;
+  font-size: 50px;
+}
+
+.about-img-sec h3 {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/********* about-sec-one **************/
+.about-sec-1 {
+  padding: 50px 0;
+  direction: rtl;
+}
+
+.about-sec-1 h4 {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.about-sec-1 img {
+  background: #f5f5f5;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  float: right;
+}
+
+.about-sec-1 p {
+  color: #666;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.about-sec-1 .block {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.about-sec-1 .block .fa {
+  color: #183c82;
+  border: 1px solid #183c82;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  padding: 12px 11px;
+  transition: all 0.2s ease;
+}
+
+.about-sec-1 .block h5 {
+  font-weight: bold;
+  color: #555;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+}
+
+.about-sec-1 .block p {
+  font-size: 13px;
+}
+
+.about-sec-1 .block:hover .fa {
+  color: #fff;
+  background: #183c82;
+}
+
+/*********** news ************/
+.news {
+  background-color: #f7f7f7;
+  padding: 45px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.title h4 {
+  color: #555;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  border-bottom: 2px solid #777;
+  padding-bottom: 10px;
+}
+
+.news .title span {
+  color: #005E9C;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.news .post {
+  margin-bottom: 20px;
+}
+
+.news .post .img-container {
+  overflow: hidden;
+  height: 190px;
+}
+
+.news .post .img-container img {
+  width: 100%;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.news .post:hover img {
+  transform: scale(1.1);
+}
+
+.news .post h5 {
+  color: #555;
+  padding: 5px 0px;
+}
+
+.news .post footer {
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 1px solid #c1c1c1;
+  padding: 7px 0;
+  position: relative;
+}
+
+.news .post footer span {
+  color: #183c82;
+}
+
+.news .post footer span .fa {
+  margin-left: 10px;
+}
+
+.news .post footer .btn {
+  background: #183c82;
+  color: #fff;
+  border-radius: 0;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+.news .post footer .btn:hover {
+  background: #183c82;
+}
+
+.news .center .btn {
+  background: #183c82;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 15px;
+}
+
+
+/************ end nes *********/
+
+.no-bg {
+  background-color: transparent !important;
+}
+
+.new {
+  padding: 45px 0;
+}
+
+.navbar-toggle {
+  background-color: #81ae2f;
+}
+
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/*------  Responsive ------------------------------------------------------*/
+@media only screen and  (max-width: 1036px) {
+
+}
+
+@media only screen and  (max-width: 756px) {
+
+  header .navbar .nav-social li {
+    display: inline-block;
+  }
+
+  header .navbar .nav-social {
+    /* margin: 7px 20px; */
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+}
+@media only screen and  (max-width: 540px) {
+  header .navbar .nav-social li {
+    display: inline-block;
+  }
+
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+
+/*end*/
+
+
+
+/*===================================*/
+/* internal-page Schedule*/
+
+.page-header{
+    text-align: center;
+    padding-top: 25px;
+    font-family: "NeoSansArabic";
+    font-size: 20px;
+    color: black;
+}
+.Schedule-head h2{
+    font-family: "NeoSansArabic";
+
+}
+.day{
+    display: inline-block;
+    background-color: #5890d3;
+    text-align: center;
+    width: 29%;
+}
+.day h4{
+    color: white;
+    font-family: "NeoSansArabic";
+
+}
+.date{
+    display: inline-block;
+    background-color: #193d84;
+    text-align: center;
+    width: 70%;
+    margin-right: -4px;
+}
+.date h4{
+    color: white;
+    font-family: "NeoSansArabic";
+}
+.new-year{
+    display: inline-block;
+    margin-top: 50px;
+    background-color: #5890d3;
+    text-align: center;
+    width: 100%  
+}
+.new-year h3{
+    color: white;
+    font-family: "NeoSansArabic"; 
+}
